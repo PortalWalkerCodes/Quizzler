@@ -9,12 +9,18 @@
 import UIKit
 
 class ViewController: UIViewController {
+    //IBOutlets do not modify
+    @IBOutlet weak var questionText: UILabel!
+    @IBOutlet weak var trueButton: UIButton!
+    @IBOutlet weak var falseButton: UIButton!
+    @IBOutlet weak var progressView: UIProgressView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    
 
 }
 
