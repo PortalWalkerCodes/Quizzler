@@ -19,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A62DDD952EF5D09D0034BEDD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		A6426E9F2EF5B40100FDA7CF /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		A6426EA22EF5B5F600FDA7CF /* QuizBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizBrain.swift; sourceTree = "<group>"; };
 		AD4BDE4622D878BA005BA4CC /* Quizzler-iOS13.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quizzler-iOS13.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -187,6 +188,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				AD4BDE5022D878BA005BA4CC /* Base */,
+				A62DDD952EF5D09D0034BEDD /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

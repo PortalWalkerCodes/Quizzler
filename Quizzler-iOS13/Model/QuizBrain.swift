@@ -10,6 +10,7 @@ import Foundation
 
 struct QuizBrain {
     var questionNumber = 0
+    var score = 0
     
     let quiz = [
         Question(q: "A slug's blood is green.", a: "True"),
@@ -33,5 +34,23 @@ struct QuizBrain {
         else {
             questionNumber = 0
         }
+    }
+    
+    func getQuestionText() -> String {
+        return quiz[questionNumber].text
+    }
+    
+    func getProgress() -> Float {
+        return Float(questionNumber + 1) / Float(quiz.count )
+    }
+
+   mutating func checkAnswer(userAnswer: String) -> Bool {
+       if userAnswer.lowercased() == quiz[questionNumber].answer.lowercased() {
+           score += 1
+           return true
+       }
+       else {
+           return false
+       }
     }
 }
