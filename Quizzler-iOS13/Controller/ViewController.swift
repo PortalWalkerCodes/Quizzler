@@ -18,9 +18,12 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        progressView.progress = 0
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func buttonPressed(_ sender: Any){
+        
+    }
 }
 
